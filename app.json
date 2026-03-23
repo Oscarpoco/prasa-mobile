@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "RailTrack PRASA",
+    "slug": "prasa-railtrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00A8E1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.prasa.railtrack"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00A8E1"
+      },
+      "package": "com.prasa.railtrack"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": []
+        }
+      ]
+    ],
+    "scheme": "railtrack",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "sdkVersion": "54.0.0",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a3037574-e813-4e11-a197-cf1b7073e57a"
+      }
+    }
+  }
+}
